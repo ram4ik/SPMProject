@@ -24,6 +24,7 @@
 		1D20E527284200BD00C5144E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D20E52A284200BD00C5144E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D20E52C284200BD00C5144E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D20E5322842019000C5144E /* OnboardingKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = OnboardingKit; path = ../../OnboardingKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		1D20E51D284200B700C5144E /* SPMProject */ = {
 			isa = PBXGroup;
 			children = (
+				1D20E5322842019000C5144E /* OnboardingKit */,
 				1D20E51E284200B700C5144E /* AppDelegate.swift */,
 				1D20E520284200B700C5144E /* SceneDelegate.swift */,
 				1D20E522284200B700C5144E /* ViewController.swift */,
