@@ -13,6 +13,7 @@
 		1D20E526284200B700C5144E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D20E524284200B700C5144E /* Main.storyboard */; };
 		1D20E528284200BD00C5144E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D20E527284200BD00C5144E /* Assets.xcassets */; };
 		1D20E52B284200BD00C5144E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D20E529284200BD00C5144E /* LaunchScreen.storyboard */; };
+		1D20E5352842062200C5144E /* OnboardingKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1D20E5342842062200C5144E /* OnboardingKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D20E5352842062200C5144E /* OnboardingKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +45,7 @@
 			children = (
 				1D20E51D284200B700C5144E /* SPMProject */,
 				1D20E51C284200B700C5144E /* Products */,
+				1D20E5332842062200C5144E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +72,13 @@
 			path = SPMProject;
 			sourceTree = "<group>";
 		};
+		1D20E5332842062200C5144E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,6 +95,9 @@
 			dependencies = (
 			);
 			name = SPMProject;
+			packageProductDependencies = (
+				1D20E5342842062200C5144E /* OnboardingKit */,
+			);
 			productName = SPMProject;
 			productReference = 1D20E51B284200B700C5144E /* SPMProject.app */;
 			productType = "com.apple.product-type.application";
@@ -360,6 +373,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1D20E5342842062200C5144E /* OnboardingKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OnboardingKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1D20E513284200B700C5144E /* Project object */;
 }
